@@ -70,6 +70,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomPopup.Designer.cs">
+      <DependentUpon>CustomPopup.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +90,9 @@
     <Compile Include="StartScreen.Designer.cs">
       <DependentUpon>StartScreen.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CustomPopup.resx">
+      <DependentUpon>CustomPopup.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainScreen.resx">
       <DependentUpon>MainScreen.cs</DependentUpon>
     </EmbeddedResource>
@@ -100,6 +109,7 @@
     <EmbeddedResource Include="StartScreen.resx">
       <DependentUpon>StartScreen.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="BCompare.chm" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -119,6 +129,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Configuration\DynamicInterfaceData.xml" />
+    <None Include="Resources\Play_button_next_stop_music_pause.png" />
+    <None Include="Resources\Button-1-play-icon.png" />
+    <Content Include="Resources\ideas-icon.png" />
     <None Include="Resources\file-folder-icon.png" />
     <None Include="Resources\mail-flat.png" />
     <None Include="Resources\db.png" />

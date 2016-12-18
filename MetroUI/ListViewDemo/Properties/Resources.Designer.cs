@@ -73,6 +73,16 @@ namespace ListViewDemo.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Button_1_play_icon {
+            get {
+                object obj = ResourceManager.GetObject("Button-1-play-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap colorful_abstract_logo_with_letter_h_1017_1621 {
             get {
                 object obj = ResourceManager.GetObject("colorful-abstract-logo-with-letter-h_1017-1621", resourceCulture);
@@ -113,6 +123,16 @@ namespace ListViewDemo.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ideas_icon {
+            get {
+                object obj = ResourceManager.GetObject("ideas-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap lifesaver_flat {
             get {
                 object obj = ResourceManager.GetObject("lifesaver-flat", resourceCulture);
@@ -126,6 +146,16 @@ namespace ListViewDemo.Properties {
         internal static System.Drawing.Bitmap mail_flat {
             get {
                 object obj = ResourceManager.GetObject("mail-flat", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Play_button_next_stop_music_pause {
+            get {
+                object obj = ResourceManager.GetObject("Play_button_next_stop_music_pause", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
